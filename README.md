@@ -1,19 +1,22 @@
 # Customer Retention and Revenue Analysis
 
 ### Table of contents
-- [Project Overview](project-overview)
-- [Data Source](data-source)
-- [Tools](tools)
-- [Data Cleaning/Preparation](data-cleaning/preparation)
-- [Exploratory Data Analysis](exploratory-data-analysis)
-- [Data Analysis](data-analysis)
-- [Results/Findings](results/findings)
-- [Recommendation](recommendation)
-- [Limitations](limitations)
+- [Project Overview](#project-overview)
+- [Data Source](#data-source)
+- [Tools](#tools)
+- [Data Cleaning and Preparation](#data-cleaning-and-preparation)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Data Analysis](#data-analysis)
+- [Results and Findings](#results-and-findings)
+- [Recommendations](#recommendations)
+- [Limitations](#limitations)
 
 ## Project Overview
 
 This project focuses on analyzing customer churn behavior and its impact on revenue performance in a telecom company. The goal is to identify key drivers of customer churn, measure the financial impact of lost customers, and provide actionable insights to improve customer retention and revenue optimization.
+
+<img width="2075" height="1200" alt="Customer Retention analysis_page-0001" src="https://github.com/user-attachments/assets/dc40e55d-26d7-476c-8d26-3469344d3863" />
+
 
 ## Data Source
 
@@ -25,7 +28,7 @@ Telecom customer churn Data: The primary Dataset for this analysis is the "telec
 - PowerBI - Data modelling and Data Visualisation
 - DAX(Data Analysis Expressions) - Custom measures for churn and revenue analysis
 
-## Data Cleaning/Preparation
+## Data Cleaning and Preparation
 
 In the initial Data Preparation Phase, I performed the Following Tasks;
 1. Data Loading and Inspection
@@ -62,7 +65,7 @@ CALCULATE(
 )
 ```
 
-### Results/Findings
+### Results and Findings
 
 The analysis results are summarised as follows;
 1. Month-to-month customers show significantly higher churn rates
